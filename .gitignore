@@ -1,0 +1,9 @@
+node_modules/*
+#build/*
+secrets.json
+*.swp
+.DS_Store
+deploy.sh
+deploy_docs.sh
+node_modules
+.git

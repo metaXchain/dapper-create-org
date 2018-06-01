@@ -1,0 +1,30 @@
+{
+  "name": "health",
+  "version": "1.0.0",
+  "description": "Health",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "compile": "truffle compile",
+    "deploy": "truffle migrate --reset --network=development",
+    "deploy:rinkeby": "truffle migrate --reset --network=rinkeby",
+    "docs": "doxity build",
+    "lint": "solium --file contracts/Health.sol"
+  },
+  "devDependencies": {
+    "@digix/doxity": "^0.5.2",
+    "ethereumjs-abi": "^0.6.4",
+    "solidity-sha3": "^0.4.1",
+    "standard": "^10.0.3",
+    "truffle-hdwallet-provider": "0.0.5"
+  },
+  "dependencies": {
+    "truffle": "^4.1.11"
+  },
+  "author": "",
+  "license": "ISC"
+}
