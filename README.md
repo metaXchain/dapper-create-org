@@ -8,9 +8,13 @@
 ## Instructions for Dapper Bootcamp
 
 1.) Open ```Organizatoion.sol``` 
+
 2.) Read over commented document
+
 3.) Try and recreate this Solidity code based on the comments
+
 4.) Work with others 
+
 
 
 - Answers will be provided after class
