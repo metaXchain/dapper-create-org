@@ -1,4 +1,4 @@
-const Organization  = artifacts.require('./Organization.sol')
+const Answers  = artifacts.require('./Answers.sol')
 const sha3 = require('solidity-sha3').default
 const {soliditySHA3} = require('ethereumjs-abi')
 
@@ -12,7 +12,7 @@ contract('Organization', function (accounts) {
   console.log("Available Accounts: ", accounts)
 
   it('should register organization under organizationAddress', async () => {
-    const instance = await Organization.deployed()
+    const instance = await Answers.deployed()
 
     const organizationAddress = accounts[1]
     const isRegisteredAddress = await instance.isRegisteredOrganizationAddress(organizationAddress)

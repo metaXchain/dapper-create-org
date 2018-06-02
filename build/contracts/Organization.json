@@ -1,0 +1,75 @@
+{
+  "contractName": "Organization",
+  "abi": [],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a72305820cc9bf89e4ee1eca62e5b5ef94431a4f0629a1514cfd45afb804cf02913aa64f40029",
+  "deployedBytecode": "0x6080604052600080fd00a165627a7a72305820cc9bf89e4ee1eca62e5b5ef94431a4f0629a1514cfd45afb804cf02913aa64f40029",
+  "sourceMap": "69:2970:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;69:2970:1;;;;;;;",
+  "deployedSourceMap": "69:2970:1:-;;;;;",
+  "source": "// Put the Solidity compiler type here\n\n//========================\n\n\ncontract Organization {\n\n  /**\n\n   * Create a mapping called organizationAddress\n   *\n   * It should be a mapping of organization name to organization public key \n   *\n   * @example\n   * \"Medi Corp\" -> \"0x9L1m03nl0Pc5ns4kh2Kp34kl23fjskoL2m\"\n   * organizationAddress[Organization Name Hash] = Public Key\n   * the mapping's key should be type bytes 32 and public key type is type address\n   * Organization Name Hash will be keccak256 when assigned\n   */\n\n  //========================\n\n  /**\n\n   * Create a mapping called organizations\n   *\n   * It should be a mapping of organization public key to organization name\n   *\n   * @example\n   * \"0x123...abc\" -> \"Medi Corp\"\n   * organizationAddress[Public Key] = Organization Name\n   * the mapping's key should be type address and organization name is type bytes32\n   */\n\n\n  //========================\n\n\n  /**\n\n   * Declare a public variable of type address that is named owner\n   *\n   * @notice The owner of this contract.\n   * \n   */\n\n  //========================\n\n  /**\n   * Create a modifier that limits the execution of the function to the owner.\n   * if false, revert. \n   * else continue with code execution.\n   *\n   * Modifier name should be: onlyOwner\n   *\n   */\n  //========================\n\n\n  /**\n   * Create a modifier which checks if sender is a registered organizationAddress.\n   * if false, revert. \n   * else continue with code execution. \n   *\n   * Modifier name should be: isRegistered\n   *\n   */\n\n  //========================\n\n  /**\n   *\n   * Create a modifier which checks that organizationAddress doesn't already exist.\n   * if false, revert. \n   * else continue with code execution. \n   *\n   * Modifier name should be: organizationAddressDoesNotExist\n   *\n   */\n\n  //========================\n\n  /*\n   * Create public constructor function.\n   * Called only once when this contract is initially deployed.\n   * It should assign the owner of the contract to the sender\n   */\n\n  //========================\n\n\n  /**\n   * Create a function that registers a new organizationAddress.\n\n   * Only the owner of the contract can register new organizationAddress.\n\n   * organizationAddress public key must not already exist in order to be added or modified.\n   \n   * Function should be external.\n\n   * @param organizationName name. Type is bytes32\n   * @param pubKey organization public key. Type is address\n\n   * Should assign the public key value to the data structure organizationAddress. \n   * Key: Hash of Organization Name. Use keccak256 to hash\n   * Value: Public Key\n\n   * Similarly also assign the Organization Name  to the data structure organizations. \n   * Key: Public Key\n   * Value: Organization Name. \n   */\n  //========================\n\n\n  /**\n   * Create an event named _OrganizationAddressRegistered\n   * It should have two parameters. 1.) Organization Name  2.) Public Key\n   * Both parameters should be indexed\n   * emit this event at the bottom of the registerOrganizationAddress function\n   */\n\n\n}\n\n",
+  "sourcePath": "/Users/nicholasporter/Projects/dapper-create-org/contracts/Organization.sol",
+  "ast": {
+    "absolutePath": "/Users/nicholasporter/Projects/dapper-create-org/contracts/Organization.sol",
+    "exportedSymbols": {
+      "Organization": [
+        58
+      ]
+    },
+    "id": 59,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 58,
+        "linearizedBaseContracts": [
+          58
+        ],
+        "name": "Organization",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 59,
+        "src": "69:2970:1"
+      }
+    ],
+    "src": "69:2972:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/nicholasporter/Projects/dapper-create-org/contracts/Organization.sol",
+    "exportedSymbols": {
+      "Organization": [
+        58
+      ]
+    },
+    "id": 59,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 58,
+        "linearizedBaseContracts": [
+          58
+        ],
+        "name": "Organization",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 59,
+        "src": "69:2970:1"
+      }
+    ],
+    "src": "69:2972:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.0",
+  "updatedAt": "2018-06-01T22:29:00.908Z"
+}

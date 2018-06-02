@@ -1,5 +1,5 @@
-var Organization = artifacts.require('./Organization.sol')
+var Answers = artifacts.require('./Answers.sol')
 
 module.exports = function(deployer) {
-  deployer.deploy(Organization)
+  deployer.deploy(Answers)
 }
