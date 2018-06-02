@@ -49,8 +49,7 @@ Then run: ```npm run test```
 ```npm run deploy```
 
 
-# Test
-Alernatives:
+# Testing Alernative Commands
 
 ```bash
 truffle test
