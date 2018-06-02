@@ -12,7 +12,7 @@ First install ```git```, ```node```, ```npm```, & ```truffle``` if you do not ha
 
 To install project dependencies run: ```npm install```
 
-*If you get installation error try deleting the ```package-lock.json``` file*
+*If you get installation error try deleting the ```package-lock.json``` file if it exists*
 
 ## Contracts
 
