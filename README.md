@@ -1,24 +1,7 @@
 # Create an Organization Manager Contract
 
 # Documentation 
-
-
-## Instructions for Dapper Bootcamp
-
-1.) Open ```Organizatoion.sol``` in Remix IDE
-
-2.) Read over commented document
-
-3.) Try and recreate this Solidity code based on the comments
-
-4.) Work with others 
-
-
-
-- Answers will be provided after class
-- This repository includes working tests with correctly constuceted code
-
-___
+https://github.com/metaXchain/dapper-create-org
 
 ## Repository Information
 
@@ -35,9 +18,9 @@ To install project dependencies run: ```npm install```
 
 You will see two additional contracts added to this repository. 
 
-1.) Answers.sol: which includes the completed version of the annotated Organizations.sol
+1.) **Answers.sol**: which includes the completed version of the annotated Organizations.sol
 
-2.) Members.sol: This contract is and extended version of the Organization.sol contract. It includes functionality to for organizations to add members. First the contract creator must register and organizaiton to its public key, then only the organization itself can add and remove members in the organization. This means if an organization was registered to a public key, now only that wallet/owner is able to update their own member list.
+2.) **Members.sol**: This contract is and extended version of the Organization.sol contract. It includes functionality to for organizations to add members. First the contract creator must register and organizaiton to its public key, then **only the organization itself** can add and remove members in the organization. This means if an organization was registered to a public key, now **only that public key/wallet that the organization is registered with** is able to update their own member list.
 
 ## Local Deployment and Testing Information
 
@@ -81,6 +64,24 @@ truffle compile
 truffle migrate --reset --network=development
 ```
 
+___
+
+## Instructions for Dapper Bootcamp
+
+1.) Open ```Organizatoion.sol``` in Remix IDE
+
+2.) Read over commented document
+
+3.) Try and recreate this Solidity code based on the comments
+
+4.) Work with others 
+
+
+
+- Answers will be provided after class
+- This repository includes working tests with correctly constuceted code
+
+___
 
 # Resources
 

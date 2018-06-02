@@ -1,7 +1,7 @@
 {
-  "name": "health",
+  "name": "dapper-create-org",
   "version": "1.0.0",
-  "description": "Health",
+  "description": "dapper-create-org",
   "main": "index.js",
   "directories": {
     "doc": "docs",
