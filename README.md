@@ -48,7 +48,7 @@ Then run: ```npm run test```
 
 ```npm run deploy```
 
-*When you run ```npm run compile``` truffle compiles the comtracts and puts the ```abi``` files in the ```/build``` directory.*
+*When you run ```npm run compile``` truffle compiles the contracts and puts the ```abi``` files in the ```/build``` directory.*
 
 # Testing Alernative Commands
 
